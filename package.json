@@ -1,0 +1,11 @@
+{
+  "name": "ead-web",
+  "version": "1.0.0",
+  "description": "eadd.ae code stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eaddae",
+  "license": "ISC"
+}

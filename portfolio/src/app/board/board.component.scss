@@ -1,0 +1,23 @@
+.board {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-auto-rows: 80px;
+	grid-gap: 20px 0px;
+}
+
+.pin {
+	img {
+		&:hover{
+			transform: scale(1.1);
+			cursor: pointer;
+		}
+		width: 100%;
+		height: 100%;
+		transition: all 0.2s ease;
+	}
+}
+
+.boardContainer {
+	display: grid;
+	grid-template-columns: 65% 30%;
+}

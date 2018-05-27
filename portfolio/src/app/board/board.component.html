@@ -1,0 +1,8 @@
+<div class="boardContainer">
+<div class="board">
+	<div class="pin" *ngFor="let skill of skills | async">
+		<img [src]="cleanTrustedLogo(skill.Logo)" (click)="onSelect(skill)"/>
+	</div>
+</div>
+<app-blurb [skillInput]="selectedSkill"></app-blurb>
+</div>

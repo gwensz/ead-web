@@ -1,0 +1,9 @@
+# Ignore files with environment secrets
+# probably harmless to give out API keys, but erring on the safe side here
+# THIS PROJECT WILL NOT RUN! Go to ethanadavid.com to see a live version.
+**/environments/
+*.svg
+svgs/
+*.sublime-project
+*.sublime-workspace
+**/batch-skills.js

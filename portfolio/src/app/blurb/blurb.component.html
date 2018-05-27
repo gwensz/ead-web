@@ -1,0 +1,10 @@
+<div class="blurb" *ngIf="skill; else placeholder" [@fadeState]="state" (@fadeState.done)="afterFade()">
+	<h2>{{skill.Name}}</h2>
+	<p>{{skill.Desc}}</p>
+</div>
+<ng-template #placeholder>
+<div class="blurb" [@fadeState]="state" (@fadeState.done)="afterFade()">
+	<h2>My Skills</h2>
+	<p>Select a logo to see more information about a skill.</p>
+</div>
+</ng-template>
